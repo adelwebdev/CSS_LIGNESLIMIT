@@ -1,0 +1,11 @@
+body {
+    width: 50%
+  }
+  
+  p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  /* set here max line number you need */
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
